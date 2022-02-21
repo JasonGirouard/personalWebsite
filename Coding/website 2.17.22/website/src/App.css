@@ -1,0 +1,223 @@
+:root {
+  --black: #333;
+  --byline: #999;
+  --white: #fff;
+  --gray: #edeef0;
+  --blue: #18a0fb;
+  --green: #1bc47d;
+  --yellow: #f2bd00;
+  --orange: #f97f0f;
+  --red: #f24822;
+  --purple: #7b61ff;
+  --teal: #00b5ce;
+  --pink: #ee46d3;
+  --shadow-color-nebula: #b664b0;
+  --shadow-melon: #00B3CC;
+  --largePadding: 88px;
+  --mediumPadding: 64px;
+  --smallPadding: 40px;
+  --verysmallPadding: 20px;
+
+  --melon: linear-gradient(135deg, #D6FF7F 0%, #00B3CC 100%);
+  --blackberry: linear-gradient(135deg, #CB5EEE 0%, #4BE1EC 100%);
+  --grapefruit: linear-gradient(135deg, #FFCC33 0%, #E233FF 100%);
+
+  --newc: linear-gradient(135deg, #6699FF 0%, #FF3366 100%);
+  --newc2: linear-gradient(135deg, #ecc64b 0%, #4bec56 100%); 
+}
+
+.App {
+  text-align: center;
+  background: var(--white);
+  height: 100vh;
+}
+
+.welcome-text {
+  background: var(--blackberry); 
+  color:#9D8EEE;
+  background-clip:text;
+  font-size: 36px;
+  font-weight: bolder;
+  /* -webkit-background-clip:text; */
+  -webkit-text-fill-color:transparent;
+  /* -webkit-box-decoration-break:clone */
+  /* font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+/* linear-gradient(135deg, #FFCC33 0%, #E233FF 100%) */
+
+.card {
+-webkit-font-smoothing: antialiased;
+color: var(--black);
+margin: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+width: 100%;
+border-radius: 40px;
+
+/* margin: var(--smallPadding); */
+border: var(--largePadding);
+padding: var(--smallPadding);
+min-width: 100px;
+min-height: 80px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* background-color: var(--blue); */
+/* background:var(--blackberry);  */
+}
+
+.restrained {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.card2 {
+  -webkit-font-smoothing: antialiased;
+  color: var(--black);
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 40px;
+  /* margin: var(--smallPadding); */
+  border: var(--smallPadding);
+  padding: var(--verysmallPadding);
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: var(--gray); */
+  /* background:var(--blackberry);  */
+  }
+
+.melon {
+  background: var(--melon);
+  background-color: var(--melon);
+}
+
+.blackberry {
+  background: var(--blackberry);
+  background-color: var(--blackberry);
+}
+
+.grapefruit {
+  background: var(--grapefruit);
+  background: var(--grapefruit);
+}
+
+.newc {
+  background: var(--newc);
+  background: var(--newc);
+}
+
+.newc2 {
+  background: var(--newc2);
+  background: var(--newc2);
+}
+
+.section {
+  /* font-family: Satoshi,Helvetica Neue,Helvetica,Arial,sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 0 2px 4px rgba(0,0,0,.08);
+  /* width: 100px; FIX ME  */
+  /* margin: 5px; */
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-radius: 48px;
+  display: inline-block;
+  border: none;
+  /* background: #fde9fa; */
+  color: var(--white);
+  background-color: var(--gray);
+  /* background-color: rgba(0,0,0,.12); */
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.clear {
+  background-color: rgba(0,0,0,.12)
+}
+
+.back {
+  font-style: bolder;
+  color: black;
+  font-size: 12px;
+}
+
+.paragraph {
+
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: flex-start;
+  max-width: 650px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.italic {
+  font-style: italic;
+}
+
+.section2 {
+  box-shadow: 0 10px 20px -10px var(--shadow-color-nebula);
+}
+
+.Contactimg {
+  border-radius: 50%;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.workimg {
+  max-width: 400px;
+  min-width: 400px;
+
+  max-height: 400px;
+  min-height: 400px;
+  object-fit: cover;
+  border: var(--smallPadding);
+  padding: var(--verysmallPadding);
+}
+
+.workimg2 {
+  max-width: 400px;
+  min-width: 30px;
+
+  max-height: 400px;
+  min-height: 30px;
+  object-fit: contain;
+  border: var(--smallPadding);
+  padding: var(--verysmallPadding);
+}
+
+.img2 {
+  object-position: 100% 30%;
+}
+
+.img3 {
+  object-position: 100% 20%;
+}
+
+.img4 {
+  object-position: 100% 100%;
+}

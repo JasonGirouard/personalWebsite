@@ -15,7 +15,7 @@ import Videos from './components/Videos';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
 
       <div className="App">
             <Routes>

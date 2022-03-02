@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/personalWebsite/static/css/main.103b46bf.css",
+    "main.js": "/personalWebsite/static/js/main.c2dce721.js",
+    "static/js/787.71e672d5.chunk.js": "/personalWebsite/static/js/787.71e672d5.chunk.js",
+    "static/media/bikeGif.gif": "/personalWebsite/static/media/bikeGif.53f256bd12d88200b5e0.gif",
+    "static/media/warehouse3.JPG": "/personalWebsite/static/media/warehouse3.a12c94228f447b6b192c.JPG",
+    "static/media/warehouse1.JPG": "/personalWebsite/static/media/warehouse1.94fff34ffba42d0ad04c.JPG",
+    "static/media/warehouse2.JPG": "/personalWebsite/static/media/warehouse2.269a366eb449988dd800.JPG",
+    "static/media/warehouse4.JPG": "/personalWebsite/static/media/warehouse4.d7e0501681bca1664253.JPG",
+    "static/media/hurting.JPG": "/personalWebsite/static/media/hurting.1fcbe286c3b9c07bb146.JPG",
+    "static/media/cat.jpg": "/personalWebsite/static/media/cat.e5d448efd624eb918b88.jpg",
+    "static/media/production.JPG": "/personalWebsite/static/media/production.0d1dc7205b07558b0ca7.JPG",
+    "static/media/video2.png": "/personalWebsite/static/media/video2.f858048a8fdaa5a817e4.png",
+    "static/media/aframe2.JPG": "/personalWebsite/static/media/aframe2.aae976236bab01f236c0.JPG",
+    "static/media/deliver.JPG": "/personalWebsite/static/media/deliver.0f3d93dbbca502c48b77.JPG",
+    "static/media/Rig.JPG": "/personalWebsite/static/media/Rig.64e0e41861a8b0c8c09f.JPG",
+    "static/media/aframe3.JPG": "/personalWebsite/static/media/aframe3.82176197032c218c33a1.JPG",
+    "static/media/aframe1.JPG": "/personalWebsite/static/media/aframe1.f717fadde5bd8392c4b6.JPG",
+    "static/media/sanjuan.jpg": "/personalWebsite/static/media/sanjuan.00c52e9181448b587c73.jpg",
+    "static/media/sand.jpg": "/personalWebsite/static/media/sand.74e4116d5ba66888d337.jpg",
+    "static/media/travel.jpg": "/personalWebsite/static/media/travel.7235bef352f8fd70dc2d.jpg",
+    "static/media/video1.png": "/personalWebsite/static/media/video1.5dd9e1eb75fb87246d80.png",
+    "static/media/video3.png": "/personalWebsite/static/media/video3.8dd510b57cd3e02e6576.png",
+    "static/media/jg.png": "/personalWebsite/static/media/jg.a5f414999db29668f729.png",
+    "static/media/video4.jpeg": "/personalWebsite/static/media/video4.9724928575b260d49a2f.jpeg",
+    "static/media/packaging.jpeg": "/personalWebsite/static/media/packaging.498d79aada475cc54712.jpeg",
+    "static/media/packaging2.jpeg": "/personalWebsite/static/media/packaging2.ce7c5a7b60627b6f29f5.jpeg",
+    "index.html": "/personalWebsite/index.html",
+    "main.103b46bf.css.map": "/personalWebsite/static/css/main.103b46bf.css.map",
+    "main.c2dce721.js.map": "/personalWebsite/static/js/main.c2dce721.js.map",
+    "787.71e672d5.chunk.js.map": "/personalWebsite/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.103b46bf.css",
+    "static/js/main.c2dce721.js"
+  ]
+}

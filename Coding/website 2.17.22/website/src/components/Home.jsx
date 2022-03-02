@@ -22,7 +22,7 @@ const Home = () => {
           <span className="welcome-text">Welcome, new friend</span>
           </Grid>
           <Grid item>
-          <span> My name is Jason Girouard, and I'm currently located in NYC. This site exists to share a little about who I am. Want to get in touch? Please reach out below — I'm always open to conversation. </span>
+          <span> My name is Jason Girouard, and I'm currently located in NYC. This site exists to share a little about who I am, and for me to practice low-level web development. Want to get in touch? Please reach out below — I'm always open to conversation. </span>
           </Grid>
           </Grid>
           </span>

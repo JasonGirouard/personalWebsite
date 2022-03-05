@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://jasongirouard.github.io/",
+  "homepage": "https://jasongirouard.github.io/personalWebsite",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.7.1",

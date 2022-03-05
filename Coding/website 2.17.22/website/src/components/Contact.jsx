@@ -2,6 +2,10 @@ import React from "react";
 import Grid from "@mui/material/Grid";
 import photo from "./utils/jg.png";
 import Navbar from "./Navbar";
+import linkedin from './utils/LinkedIn_logo_initials.png';
+import twitter from './utils/Twitter-Logo.png';
+import medium from './utils/medium.png';
+import gmail from './utils/gmail.png';
 
 // const Home = () => {
 //   return (
@@ -24,11 +28,11 @@ const Contact = () => {
 
       <Grid
         container
-        spacing={3}
+        spacing={1}
         justifyContent="Center"
         direction="row"
-        minWidth={"300px"}
-        maxWidth={"80vw"}
+       // minWidth={"300px"}
+        maxWidth={"800px"}
       >
         <Grid item xs
         container spacing ={3}
@@ -50,16 +54,33 @@ const Contact = () => {
           justifyContent="Center"
           direction="column"
           >
-            <Grid item>jasontgirouard@gmail.com</Grid>
-            <Grid item>linkedin</Grid>
-            <Grid item>twitter</Grid>
-            <Grid item>Medium</Grid>
+             <Grid item>
+              <a href="mailto:jasontgirouard@gmail.com" target="_blank">
+                <img className = "logo" src={gmail} alt="gmailphoto" />
+                </a>
+                </Grid>
+
+            <Grid item>
+              <a href="https://www.linkedin.com/in/jasongirouard/" target="_blank">
+                <img className = "logo" src={linkedin} alt="linkedinphoto" />
+                </a>
+                </Grid>
+                <Grid item>
+              <a href="https://twitter.com/jason_girouard" target="_blank">
+                <img className = "logo" src={twitter} alt="twitterphoto" />
+                </a>
+                </Grid>
+                <Grid item>
+              <a href="https://medium.com/@jasontgirouard" target="_blank">
+                <img className = "logo" src={medium} alt="mediumphoto" />
+                </a>
+                </Grid>
           </Grid>
         </Grid>
 
-        <Grid item xs = {3}
-        // maxWidth={"100px"}
-        // maxHeight={"100px"}
+        <Grid item xs
+       //  maxWidth={"200px"}
+       //  maxHeight={"200px"}
         >
           <span>
             <img className = "Contactimg" src={photo} alt="jason" />

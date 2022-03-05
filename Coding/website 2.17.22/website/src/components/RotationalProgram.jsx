@@ -75,13 +75,13 @@ const RotationalProgram = () => {
         container direction = "row"
         >
           <Grid item xs>
-          <img className = "workimg2" src={aframe1} />
+          <img className = "workimg" src={aframe1} />
           </Grid>
           <Grid item xs>
-          <img className = "workimg2" src={aframe2} />
+          <img className = "workimg" src={aframe2} />
           </Grid>
           <Grid item xs>
-          <img className = "workimg2" src={aframe3} />
+          <img className = "workimg" src={aframe3} />
           </Grid>
 
         </Grid>

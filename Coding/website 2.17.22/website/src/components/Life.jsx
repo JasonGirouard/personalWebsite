@@ -53,22 +53,22 @@ const Life = () => {
       container direction = "row"
       >
         <Grid item xs>
-        <img className = "workimg " src={sand} />
+        <img className = "workimg" src={sand} />
         </Grid>
         <Grid item xs>
-        <img className = "workimg img4" src={sanjuan} />
+        <img className = "workimg" src={sanjuan} />
         </Grid>
         <Grid item xs>
         <img className = "workimg" src={bikeGif} />
         </Grid>
         <Grid item xs>
-          <img className = "workimg img2" src={cat} />
+          <img className = "workimg" src={cat} />
         </Grid>
         <Grid item xs>
         <img className = "workimg" src={hurting} />
         </Grid>
         <Grid item xs>
-        <img className = "workimg " src={travel} />
+        <img className = "workimg" src={travel} />
         </Grid>
         </Grid>
 

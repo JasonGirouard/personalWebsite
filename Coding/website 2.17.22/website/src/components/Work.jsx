@@ -1,21 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
-
 import Grid from "@mui/material/Grid";
-// import Product from "./utils/productphoto.png";
-// import ProdOps from "./utils/prodopsphoto.png";
-// import Analyst from "./utils/analystphoto.png";
-
-// const Home = () => {
-//   return (
-//     <Navbar />,
-//     console.log("test"),
-//     "In Home");
-// };
 
 const Work = () => {
-
   return (
     <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
@@ -47,7 +35,8 @@ const Work = () => {
 
         <br></br>
         <span>
-          Prior to Uber, I spent 18 months in a <Link
+          Prior to Uber, I spent 18 months in a{" "}
+          <Link
             to={{
               pathname: "/RotationalProgram",
             }}
@@ -59,25 +48,28 @@ const Work = () => {
         <br></br>
         <span>
           While working for the wholesaler, I tried my hand at starting a CPG
-          brand named <Link
+          brand named{" "}
+          <Link
             to={{
               pathname: "/BITS",
             }}
           >
             B!TS
-          </Link>. We got it into a few stores, but it
-          ultimately didn't take off.
+          </Link>
+          . We got it into a few stores, but it ultimately didn't take off.
         </span>
         <br></br>
         <span>
           Growing up, between 14 and 18 years old, I turned my hobby of making
-          Youtube sketch videos into <Link
+          Youtube sketch videos into{" "}
+          <Link
             to={{
               pathname: "/Videos",
             }}
           >
             semi-professional video-contest entry
-          </Link>. I made enough money here to pay for college.
+          </Link>
+          . I made enough money here to pay for college.
         </span>
       </span>
     </span>

@@ -4,15 +4,17 @@ import { Link } from "react-router-dom";
 import Grid from "@mui/material/Grid";
 
 const Projects = () => {
+  window.scrollTo(0, 0);
   return (
-    <span className="paragraph">
+    <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
         <Grid item xs={1} alignItems="center">
           <Navbar />
         </Grid>
       </Grid>
-
+      <span className="paragraph">
       <span className="italic">
+        <br></br>
         The purpose of this section is to house past or present dev projects, as
         well as thoughts future projects. Currently, it's mostly the latter. If
         you have thoughts on any of these topics, I'd love to chat! Please{" "}
@@ -144,6 +146,7 @@ const Projects = () => {
         </span>
         <br></br>
       </span>
+    </span>
     </span>
   );
 };

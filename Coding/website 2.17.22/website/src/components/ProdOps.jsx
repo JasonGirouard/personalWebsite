@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Grid from "@mui/material/Grid";
 
 const ProdOps = () => {
+  window.scrollTo(0, 0);
   return (
     <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
@@ -13,6 +14,7 @@ const ProdOps = () => {
       </Grid>
       <span className="paragraph">
         <span>
+          <br></br>
           I began working in Product Ops after joining Uber as an analyst and
           building hacky python-based tools to support Account Management teams
           to work proactively. In my role as an analyst, it was my job to create
@@ -20,10 +22,11 @@ const ProdOps = () => {
           extra time to try to solve the problems at their true root-cause.
           Joining Product Ops let me partner more closely with those who were
           working towards these longer term solutions.{" "}
+          <br></br>
         </span>
 
-        <br></br>
         <span>
+          <br></br>
           Product Ops was my first experience working with engineering, design,
           and data science. I began by immersing myself in design books, and
           understanding how I can add value to engineering & data science
@@ -31,6 +34,7 @@ const ProdOps = () => {
         </span>
         <br></br>
         <span>
+          <br></br>
           I tell people that product ops is responsible for three things
           <ol>
             <li>Product Quality</li>
@@ -53,12 +57,17 @@ const ProdOps = () => {
         </span>
         <br></br>
         <span>
+          <br></br>
           Being a Product Manager, I've gained a new perspective on Prod Ops and
           how the role enables PMs to focus on what can maximize leverage,
           rather than be consumed by what's urgent. I continue to think a lot
           about Product Ops and will most likely write more on the topic.
+          <br></br>
         </span>
+        <br></br>
+
       </span>
+
     </span>
   );
 };

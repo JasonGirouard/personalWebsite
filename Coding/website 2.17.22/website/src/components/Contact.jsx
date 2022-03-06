@@ -8,14 +8,15 @@ import medium from "./utils/medium.png";
 import gmail from "./utils/gmail.png";
 
 const Contact = () => {
+  window.scrollTo(0, 0);
   return (
-    <span className="section">
+    <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
         <Grid item xs={1} alignItems="center">
           <Navbar />
         </Grid>
       </Grid>
-
+<span className = "section">
       <span className="card">
         <Grid
           container
@@ -76,7 +77,9 @@ const Contact = () => {
           </Grid>
         </Grid>
       </span>
+      </span>
     </span>
+   
   );
 };
 

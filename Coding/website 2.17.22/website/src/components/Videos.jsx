@@ -8,6 +8,7 @@ import video3 from "./utils/videos/video3.png";
 import video4 from "./utils/videos/video4.jpeg";
 
 const Videos = () => {
+  window.scrollTo(0, 0);
   return (
     <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
@@ -17,20 +18,24 @@ const Videos = () => {
       </Grid>
       <span className="paragraph">
         <span>
+          <br></br>
           At 13 years old a school project turned into a hobby with my best
           friend — we made Youtube videos every week for the next 2 years. We
           loved the YouTube community, the practice of making & editing videos,
           and building a small audience that would tune in every week to watch
           the latest upload. After a few rejections, we were accepted to the
           Youtube Partner program which gave us ad-revenue from our videos.
+          <br></br>
         </span>
         <br></br>
         <span>
+
           Google used Youtube to strongly advertise a video contest in which
           they were giving away 100 Google TVs. The entrants were few and far
           between, and our medicore entry won ourselves a TV that we sold for
           ~$700. That beat the $500 we earned in ad-revenue over the past year
           of making videos and I instantly knew there was more opportunity here.
+          <br></br>
         </span>
         <br></br>
 
@@ -43,6 +48,7 @@ const Videos = () => {
           categories and prizes between $500 and $1,000 gave me the best
           expected value by decreasing the quality & size of the competition. I
           kept my costs near-zero.
+          <br></br>
         </span>
         <br></br>
         <span>
@@ -55,6 +61,7 @@ const Videos = () => {
           impact on shaping me to identify opportunities, think carefully about
           winning angles, and that taking action above all is a successful
           starting strategy.
+          <br></br>
         </span>
         <br></br>
 
@@ -72,7 +79,7 @@ const Videos = () => {
           </Grid>
 
           <Grid item xs>
-            <img className="workimg2" src={video2} />
+            <img className="workimg" src={video2} />
           </Grid>
         </Grid>
       </span>

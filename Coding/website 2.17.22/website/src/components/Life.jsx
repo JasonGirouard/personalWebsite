@@ -12,19 +12,22 @@ import sanjuan from "./utils/life/sanjuan.jpg";
 
 
 const Life = () => {
+  window.scrollTo(0, 0);
   return (
-    <span className="paragraph">
+    <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
         <Grid item xs={1} alignItems="center">
           <Navbar />
         </Grid>
       </Grid>
-
+      <span className="paragraph">
       <span>
         {" "}
+        <br></br>
         I'm currently living in NYC. I was able to move here with my partner
         without needing to change jobs -- we both wanted to live in NYC while we
         were still in our 20s.{" "}
+        <br></br>
       </span>
       <br></br>
       <span>
@@ -32,6 +35,7 @@ const Life = () => {
         Prior to living in NYC, I spent 3 years in Chicago. I may very well move
         back one day. I love the friendliness & affordability of the city, the
         ease & accessibility of the public transportation, and the people.{" "}
+        <br></br>
       </span>
 
       <br></br>
@@ -48,6 +52,7 @@ const Life = () => {
         City in June 2021 -- I made it 80 miles before my body began to give up
         due to improper hydration & nutrition. Six months later, I completed a
         100 mile ultra in Brazos Bend, Texas in 24 hours and 10 minutes.{" "}
+        <br></br>
       </span>
 
       <br></br>
@@ -56,6 +61,7 @@ const Life = () => {
         great way to visit further away places without relying on a car. I've
         given one attempt at bike-packing so far by biking the ~450 mile Natchez
         Trace.
+        <br></br>
       </span>
 
       <br></br>
@@ -64,6 +70,7 @@ const Life = () => {
         Ironman 70.3. It's fun competition and a great excuse to vacation
         together. So far we've done them in Lake Placid, Ohio, Cozumel, and
         Tempe.
+        <br></br>
       </span>
 
       <br></br>
@@ -73,6 +80,7 @@ const Life = () => {
         2020, I've spent a month in San Juan, El Paso, Vegas, and Austin. I'd
         love to continue doing this, including potentially spending a month in
         Alaska during the summer.
+        <br></br>
       </span>
 
       <br></br>
@@ -85,6 +93,8 @@ const Life = () => {
         moving the flea's finds. I wasn't nearly as big (or experienced) as the
         other porters, but I could find work to pay at least $100 for the day. I
         used that money to buy myself a Mac capable of better video editing.{" "}
+        <br></br>
+        <br></br>
       </span>
 
       <Grid container direction="row">
@@ -107,6 +117,7 @@ const Life = () => {
           <img className="workimg" src={travel} />
         </Grid>
       </Grid>
+    </span>
     </span>
   );
 };

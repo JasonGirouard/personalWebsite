@@ -8,6 +8,7 @@ import production from "./utils/BITS/production.JPG";
 import Rig from "./utils/BITS/Rig.JPG";
 
 const BITS = () => {
+  window.scrollTo(0, 0);
   return (
     <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
@@ -17,6 +18,7 @@ const BITS = () => {
       </Grid>
       <span class="paragraph">
         <span>
+          <br></br>
           While working at the wholesale grocer, I tried launching a whole-food
           pea-protein based snack called B!TS. I did this because...
           <ul>
@@ -40,6 +42,7 @@ const BITS = () => {
             Latvian carp bait equipment
           </a>{" "}
           thousands at a time.
+          <br></br>
         </span>
         <br></br>
         <span>
@@ -47,6 +50,7 @@ const BITS = () => {
           time, but mostly becuase I lost conviction in what I was building. I
           didn't even like to eat (or talk about) this product by this point,
           and coming to grips with that was a difficult experience.
+          <br></br>
         </span>
 
         <br></br>
@@ -58,6 +62,7 @@ const BITS = () => {
           also thought I had to support 4 or 5 different flavors which added
           lots of complexity to production and management when I could have just
           stuck with the best one.
+          <br></br>
         </span>
         <br></br>
         <span>Find pictures from B!TS below.</span>

@@ -4,6 +4,7 @@ import Grid from "@mui/material/Grid";
 import "../App.css";
 
 const Home = () => {
+  window.scrollTo(0, 0);
   return (
     <span className="section">
       <Grid
@@ -52,17 +53,7 @@ const Home = () => {
           maxWidth={"800px"}
           item
         >
-          <Grid item xs>
-            <span className="card melon restrained">
-              <Link
-                to={{
-                  pathname: "/Work",
-                }}
-              >
-                <span className="section clear">Work</span>
-              </Link>
-            </span>
-          </Grid>
+          
           <Grid item xs>
             <span className="card blackberry restrained">
               <Link
@@ -82,6 +73,18 @@ const Home = () => {
                 }}
               >
                 <span className="section clear">Projects</span>
+              </Link>
+            </span>
+          </Grid>
+          
+          <Grid item xs>
+            <span className="card melon restrained">
+              <Link
+                to={{
+                  pathname: "/Work",
+                }}
+              >
+                <span className="section clear">Work</span>
               </Link>
             </span>
           </Grid>

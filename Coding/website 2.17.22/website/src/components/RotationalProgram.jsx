@@ -10,6 +10,7 @@ import aframe1 from "./utils/rotational/aframe1.JPG";
 import aframe2 from "./utils/rotational/aframe2.JPG";
 import aframe3 from "./utils/rotational/aframe3.JPG";
 const RotationalProgram = () => {
+  window.scrollTo(0, 0);
   return (
     <span>
       <Grid container space={0} direction="row" justifyContent="flex-start">
@@ -19,6 +20,7 @@ const RotationalProgram = () => {
       </Grid>
       <span className="paragraph">
         <span>
+          <br></br>
           For my first full time job after college I wanted to prioritize
           <ol>
             <li>Learning</li>
@@ -30,6 +32,7 @@ const RotationalProgram = () => {
           program with a large wholesaler (CS Wholesale Grocers) which paid less
           money than other offers I received, but gave me a great environment to
           be challenged and learn.
+          <br></br>
         </span>
 
         <br></br>
@@ -43,6 +46,7 @@ const RotationalProgram = () => {
           , an automated picking solution for small items of consistent shape.
           In hindsight, it was incredible how we went from fully manual picking
           to the A-Frame at near-max capacity in just 7 months.
+          <br></br>
         </span>
         <br></br>
         <span>

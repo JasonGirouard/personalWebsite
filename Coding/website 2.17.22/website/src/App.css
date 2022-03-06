@@ -133,17 +133,26 @@ hr {
 }
 
 .paragraph {
-
+  -webkit-font-smoothing: antialiased;
   display: flex;
   text-align: left;
   flex-direction: column;
-  justify-content: flex-start;
-  justify-items: flex-start;
+  text-shadow: 0 2px 4px rgba(0,0,0,.08);
+  justify-content: center;
+  justify-items: center;
   max-width: 650px;
   padding: 10px;
   margin: 10px;
+  border-radius: 48px;
+  display: inline-block;
+  border: none;
+  color: var(--black);
+  background-color: var(--gray);
 
 }
+
+
+
 
 .italic {
   font-style: italic;
@@ -167,11 +176,16 @@ hr {
 }
 
 .workimg {
-  max-width: 400px;
+  max-width: 300px;
   min-width: 50px;
-  max-height: 400px;
+
+  max-height: 300px;
   min-height: 50px;
-  max-width: 80vw;
-  max-height: 80vh;
+  display: inline;
+  float: none;
+  vertical-align: top;
+
+  /* max-width: 60vw;
+  max-height: 80%; */
   object-fit: contain;
 }
